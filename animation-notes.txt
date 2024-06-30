@@ -1,0 +1,72 @@
+transition
+****************************************
+
+body{
+background:lightblue;
+text-align:center;
+}
+
+.wrapper{
+ width:100%;
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.circle{
+  width:100px;
+  padding:50px 0;
+  line-height:0;
+  margin:60px auto;
+  background:pink;
+  color:white;
+  border-radius:50px;
+  cursor:pointer;
+transition:1s;
+transition:background 1s, transform 0.3s;
+/*transition: numberof seconds to perform numberof seconds to delay, transition-timingfunction*/
+}
+
+circle:hover{
+ background:orangeRed;
+ tarnsform:rotate(360deg);
+}
+
+*******************************************
+
+Transform
+
+body{
+background:lightblue;
+text-align:center;
+}
+
+.wrapper{
+  width:100%;
+  padding:20px;
+  box-sizing: border-box;
+}
+img {
+transform:rotateZ(-90deg) translateY(200px) scale(2)
+}
+translate() translateX() translateY()
+scale() scaleX() scaleY()
+rotateX() rotateY() rotateZ()
+
+
+
+
+
+
+
+
+
+.circle:hover{
+  background:orangered;
+   transform:rotate(360deg);
+}
+
+
+
+
+  
+}
