@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table</title>
+    <style>
+       .wrapper{
+        width:900px;
+        margin: 0 auto;
+       }
+       th,td {
+        padding:8px;
+        text-align: center;
+       }
+        th,td,tr {
+            border:1px solid #000;
+        }
+       table{
+        width: 900px;
+        /*  border:1px solid #000; */
+         border-collapse: collapse; 
+       
+       }
+       th {
+        /* background-color: orange; */
+        background: rgba(255, 212, 142, 1);
+       }
+       td {
+        text-align: center;
+       }
+       tr:nth-child(even){
+        background-color: #FAEBD6;
+       }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <table>
+            <tr>
+             <th>Time</th>
+             <th>Monday</th>
+             <th>Tuesday</th>
+             <th>Wednesday</th>
+             <th>Thursday</th>
+             <th>Friday</th>
+            </tr>
+            <tr>
+                <td rowspan="2">9:00 - 10:00</td>
+                <td colspan="3">Mathematics</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+                
+            </tr>
+            <tr>
+               <td>Biology</td>
+               <td>History</td>
+               <td>Geography</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>English</td>
+                <td rowspan="3">Computer Science</td>
+                <td>Art</td>
+                <td rowspan="2">Physical Education</td>
+                <td>Math Lab</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">11:00 - 12:00</td>
+                <td>Science</td>
+                <td>Music</td>
+                <td>Chemistry Lab</td>
+            </tr>
+            <tr>
+                <td>History</td>
+                <td colspan="3">Free Period</td>
+            </tr>
+            <tr>
+                <td>12:00 - 1:00</td>
+                <td style="text-align: center;" colspan="5">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>1:00 - 2:00</td>
+                <td>Maths</td>
+                <td>Physics</td>
+                <td>Computer Science</td>
+                <td>Biology</td>
+                <td>History</td>
+            </tr>
+         </table>
+    </div>
+</body>
+</html>

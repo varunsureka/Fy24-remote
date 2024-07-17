@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .column {
+  display: flex;
+  flex-direction: column;
+}
+.column > div {
+  font-size: 3vh;
+  color: black;
+  background: khaki;
+  margin: .1em;
+  padding: .3em 1em;
+  border-radius: 3px;
+  flex: 1;
+
+}
+.wrapper {
+  display: flex;
+  width: 900px;
+  margin: 0 auto;
+  border: 5px solid red;
+}
+    </style>
+</head>
+<body>
+  <h1 style="text-align: center;">CSS Flex Demo/Task</h1>
+    <div class="wrapper">
+      
+      <div class="column">
+          <div>Photo-1</div>
+        </div>
+        <div class="column">
+          <div>Photo-1</div>
+          <div>Photo-2</div>
+        </div>
+        <div class="column">
+          <div>Photo-1</div>
+          <div>Photo-2</div>
+          <div>Photo-3</div>
+        </div>
+        <div class="column">
+          <div>Photo-1</div>
+          <div>Photo-2</div>
+          <div>Photo-3</div>
+          <div>Photo-4</div>
+        </div>
+      </div>
+      
+</body>
+</html>

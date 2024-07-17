@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 10px;
+}
+        .box {
+  color: white;
+  font-size: 4vw;
+  padding: 10px;
+  background: gold;
+  text-align: center;
+}
+.box:nth-child(1) {
+  grid-column: span 12;
+  }
+.box:nth-child(2), 
+.box:nth-child(3) {
+  grid-column: span 6;
+  }
+.box:nth-child(4),
+.box:nth-child(5),
+.box:nth-child(6) {
+  grid-column: span 4;
+  }
+.box:nth-child(7),
+.box:nth-child(8),
+.box:nth-child(9),
+.box:nth-child(10) {
+  grid-column: span 3;
+  }
+
+    </style>
+</head>
+<body>
+    <main class="grid">
+        <div class="box">Header</div>
+        <div class="box">Logo</div>
+        <div class="box">right Nav</div>
+        <div class="box">Box1</div>
+        <div class="box">Box2</div>
+        <div class="box">Box3</div>
+        <div class="box">FooterBox1</div>
+        <div class="box">FooterBox2</div>
+        <div class="box">FooterBox3</div>
+        <div class="box">FooterBox4</div>
+      </main> 
+</body>
+</html>
