@@ -1,0 +1,92 @@
+1) do not update the state directly instead use setState in
+class based component
+
+syntax variant of setState
+1) this.setState({property:value})
+
+2) this.setState({property:value},() => {})
+
+3) this.setState(prevState => ({}),() => {})
+
+
+2) Whenever we want to run some code after setState update only make sure that code 
+    does not comes after the setState (variant number 1) instead it shoud
+    use variant number 2
+
+3) Whenever we are calling multiple setState calls in one function only it will
+   treat multiple setState calls as a single setState only. So to make a call 
+   to multiple setState calls use the setState syntax variant number 3
+
+*******************************************************************************
+
+
+  Binding this variant 
+
+   1 binding in render
+   onClickHandler(){
+      this.setState({property:value})
+    }
+
+     <button onClick={this.onClickHandler.bind(this)}></button>
+
+
+  2 arrow function in render
+
+ onClickHandler(){
+      this.setState({property:value})
+    }
+
+     <button onClick={()=> this.onClickHandler()}></button>
+
+
+  3  binding in constructor
+
+   constructor(props){
+     super(props);
+      this.onClickHandler = this.onClickHandler.bind(this);
+   }
+
+ <button onClick={this.onClickHandler}></button>
+
+
+ 4  fat arrow function as a class Property
+
+   onClickHandler = () => {
+     //
+    }
+
+<button onClick={this.onClickHandler}></button>
+
+
+********************************************************************************
+
+Conditional Rendering 
+
+1) if/else
+2)Element Variable
+3) Terinary Operator
+4) Short circuit operator
+
+***********************************************************************************
+
+Styling The Reaact Component
+
+1) CSS StyleSheet
+2) Inline Styling
+3) CSS Module
+
+
+
+https://forms.office.com/e/BQwedBKddB
+
+
+https://www.freecodecamp.org/news/how-to-use-react-router-version-6/
+
+
+
+
+
+
+
+
+
