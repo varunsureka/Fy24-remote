@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.background {
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   padding: 40px;
+   background-image: url('https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card {
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.align-left {
+    align-self: flex-start;
+}
+.align-right {
+    align-self: flex-end;
+}
