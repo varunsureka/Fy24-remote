@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #087ff5;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+   /* add styles */
+   background-color: #34495e;
+   border-radius: 5px;
+}
+
+main {
+    padding: 2em;
+}
+
+.card {
+    /* add styles */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 32px;
+    padding: 32px;
+}
+
+#about.card {
+    /* add styles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#projects.card {
+    /* add styles */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.image-gallery {
+   /* add styles */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 1em;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #087ff5;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1em; /* Add margin-top for spacing */
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+
+footer {
+    background-color: #087ff5;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+main {
+    padding-bottom: 4em; /* Add padding-bottom to main content */
+}

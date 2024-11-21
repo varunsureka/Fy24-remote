@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- create title with "My Portfolio" -->
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <!-- create nav link with href "#about" and text = "About" inside list tag-->
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <!-- create nav link with href "#projects" and text = "Projects" inside list tag-->
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <!-- create nav link with href "#images" and text = "Images" inside list tag-->
+                <li>
+                    <a href="#images">Images</a>
+                </li>
+                <!-- create nav link with href "#contact" and text = "Contact" inside list tag-->
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="card" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm a web developer with a passion for creating beautiful and functional websites.</p>
+        </div>
+        <div class="card" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Project One</h3>
+                <p>A brief description of my first project.</p>
+            </div>
+            <div class="project">
+                <h3>Project Two</h3>
+                <p>A brief description of my second project.</p>
+            </div>
+        </div>
+        <div class="card" id="images">
+            <h2>Image Gallery</h2>
+            <div class="image-gallery">
+                <!-- create image with source "https://picsum.photos/200" and alt text = "Image 1" -->
+                <img src="https://picsum.photos/200" alt="Image 1"/>
+                <!-- create image with source "https://picsum.photos/200" and alt text = "Image 2" -->
+                <img src="https://picsum.photos/200" alt="Image 2"/>
+                <!-- create image with source "https://picsum.photos/200" and alt text = "Image 3" -->
+                <img src="https://picsum.photos/200" alt="Image 3"/>
+            </div>
+        </div>
+        <div class="card" id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <!-- create name input field with id "name" -->
+                <input type="text" id="name" />
+                <label for="email">Email:</label>
+                <!-- create email input field with id "email" -->
+                <input type="email" id="email" />
+                <label for="message">Message:</label>
+                <!-- create message text area with id "message" -->
+                <textarea id="message"></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
