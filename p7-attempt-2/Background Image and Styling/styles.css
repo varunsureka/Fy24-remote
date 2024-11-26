@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.background {
+   /* add styles here */
+   /*Use this Image URL for Background Image- https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ*/
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   padding: 40px;
+   background-image: url('https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ');
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.card {
+    /* add styles here */
+    padding: 20px;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    color: #000000;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+.align-left {
+    /* add styles here */
+    align-self: flex-start;
+}
+.align-right {
+    /* add styles here */
+    align-self: flex-end;
+}

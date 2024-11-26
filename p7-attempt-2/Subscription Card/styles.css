@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.grid-container {
+    max-width: 600px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+    /*add your styles here*/
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+.join-container {
+    padding: 24px;
+    /*add your styles here*/
+    grid-column: 1 / span 2;
+}
+.join-heading {
+    color: #6DC6C7;
+}
+.join-subheaing {
+    color: #BEDF32;
+    margin-top: 8px;
+}
+.join-description {
+    margin-top: 16px;
+    color: #6F7172
+}
+.subscription-container {
+    background-color: #2EABAC;
+    padding: 24px;
+    color: white;
+    border-radius: 0 0 0 8px;
+    /*add your styles here*/
+    grid-column: 1 / span 1;
+}
+.subscription-plan {
+    margin-top: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.subscription-price {
+    font-size: 32px;
+    font-weight: 700;
+}
+.subscription-payment {
+    color: #BCEBEB;
+}
+.subscription-button {
+    background-color: #BEDF32;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    font-weight: 700;
+    /*add your styles here*/
+    width: 100%
+}
+.subscription-button:hover {
+    background-color: #7fcd3a;
+}
+.why-us-container {
+    background-color: #6DC6C7;
+    color: white;
+    padding: 24px;
+    border-radius: 0 0 8px 0;
+    /*add your styles here*/
+    grid-column: 2 / span 1;
+}
+.why-us-points {
+    font-size: 12px;
+    margin-top: 16px;
+    /*add your styles here*/
+    list-style: none;
+    padding: 0;
+}
