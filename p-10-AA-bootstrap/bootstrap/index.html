@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-css/css/bootstrap.min.css">
+    <script src="bootstrap-css/js/bootstrap.bundle.min.js"></script>
+
+<style>
+    .my-container{
+       
+        height: 100px;
+    }
+    .btn-primary{
+        background-color: yellowgreen;
+    }
+</style>
+</head>
+<body>
+    <div class="container bg-primary my-container">
+        <div class="row bg-secondary my-container">
+           <div class="col-md-6 bg-success my-container">
+             <div class="row">
+                  <div class="col-lg-9 bg-danger my-container">inner column1</div>
+                  <div class="col-lg-3 bg-info my-container">inner column2</div>
+             </div>
+           </div>
+           <div class="col-md-6  bg-warning my-container">
+            <button class="btn btn-primary">Click</button>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
