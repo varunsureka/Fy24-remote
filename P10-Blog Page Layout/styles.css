@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header,
+footer {
+  background-color: #001220;
+  color: white;
+  padding: 20px 0;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* Use this url for background image- https://bbdu.ac.in/wp-content/uploads/2020/05/banner-background-5.jpg */
+#main-feature {
+  padding: 40px;
+  background-image: url("https://bbdu.ac.in/wp-content/uploads/2020/05/banner-background-5.jpg");
+  background-size: cover;
+}
+
+#profile {
+  display: flex;
+}
+
+#profile img {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+#aboutMe {
+  max-width: 400px;
+  margin-left: 50px;
+  color: white;
+}
+
+#midSection {
+  margin: 20px 0;
+  display: flex;
+  column-gap: 20px;
+}
+
+#articleSection {
+  display: flex;
+  column-gap: 20px;
+}
+
+.article {
+  background-color: #001220;
+  padding: 15px;
+  color: white;
+  width: 280px;
+}
+
+.article:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#sidebar {
+  padding: 15px;
+  background-color: #001220;
+  box-sizing: border-box;
+  color: white;
+}
+
+#sidebar h4,
+#sidebar ul,
+#sidebar p {
+  margin: 0 0 15px 0;
+}
+
+#sidebar ul {
+  padding: 0;
+}
+
+#sidebar ul li {
+  margin-bottom: 10px;
+}
+
+#sidebar ul li a {
+  color: white;
+}
+
+#feedbackButton {
+  /* add provide feedback button styles for positioning */
+  border: none;
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  transform: rotate(90deg);
+  position: fixed;
+  right: -48px;
+  top: 60%;
+}
